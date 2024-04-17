@@ -9,9 +9,9 @@ const subtract = function(a,b) {
 const sum = function(arr) {
 	return arr.reduce((total,  current) => total+current, 0)
 };
-
+// reduce => (function, start value)
 const multiply = function(arr) {
-	return arr.reduce((produce, current) => product * current)
+	return arr.reduce((product, current) => product * current) // safer implementation than product *= current
 };
 
 const power = function(a,b) {
